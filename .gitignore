@@ -1,0 +1,38 @@
+# Logs and runtime artifacts (Critical: Prevent token leakage)
+logs/
+*.log
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter & Editor files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local output files
+output/
+*.mp4
+*.png
+*.jpg
+*.jpeg
+
+# Sensitive auth credentials & token dumps
+*.enc
+credentials.json
+client_secret.json
+token.json
+token_cache.json
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
