@@ -93,19 +93,40 @@ gws auth login
 ### 步骤 3：启动自动化工作流
 
 ```bash
-# 先执行 Dry-run 预检（校验本地 CLI、Drive 凭据与 CU 余额，0 成本）
+# 1. 先执行 Dry-run 预检（校验本地 CLI、Drive 凭据与 CU 余额，0 成本）
 python pipeline_scheduler.py --dry-run
 
-# 正式启动在线 A100 测试与视频生成
+# 2. 正式执行方案 C：全维度极限压力测试（8 支全风格、多步数、极限时长矩阵测试）
 python pipeline_scheduler.py
+
+# 3. 自定义运行指定任务（例如仅跑 Task 1 和 Task 2）
+python pipeline_scheduler.py --task-ids 1,2
 ```
+
+---
+
+## 🧪 评测方案 C（全维度压力测试任务矩阵）
+
+内置在 [`plan_c_tasks.json`](plan_c_tasks.json) 中，包含 8 个针对 MiniMax H3 多模态能力的高难度测试用例：
+
+| ID | 任务名称 | 风格/测试维度 | 配置 (时长/步数/LoRA) | 核心考察点 |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** | `PlanC_01_Cinematic_Portrait` | 电影级超真实人像 | 5.0s / 4-step Turbo | 皮肤毛孔纹理、眼神微光、微表情肌肉与环境呼吸音 |
+| **2** | `PlanC_02_Cyberpunk_Rain` | 雨夜赛博朋克光追 | 5.0s / 4-step Turbo | 复杂霓虹地面倒影、雨水流体飞溅、立体声雨声车声 |
+| **3** | `PlanC_03_Macro_Nature` | BBC 8K 自然生态微距 | 5.0s / 4-step Turbo | 晨露透镜折射、昆虫复眼、花瓣绒毛与微观自然音 |
+| **4** | `PlanC_04_Auto_Commercial` | 商业奢华超跑广告 | 5.0s / 4-step Turbo | 钛合金与碳纤维材质、V8 引擎排气声浪与商业剪辑节奏 |
+| **5** | `PlanC_05_Anime_Fantasy` | 日系二次元奇幻张力 | 5.0s / 4-step Turbo | 动漫关键帧爆发、粒子流体与日系交响配乐 |
+| **6** | `PlanC_06_Cinematic_Quality_8step` | 画质阶梯对比 | 5.0s / 8-step Turbo | 与 Task 1 同 Seed 对比 8 步微调对人像细节的提升 |
+| **7** | `PlanC_07_Cyberpunk_BaseModel_20step` | 顶级画质无 LoRA 基模 | 5.0s / 20-step 基模 | 与 Task 2 同 Seed 对比基模无 LoRA 20 步精细光影渲染 |
+| **8** | `PlanC_08_Stress_10s_Space_Opera` | 极限时长压力测试 | 10.0s / 4-step Turbo | 243 帧连续多机位太空歌剧史诗，测试长时间空间一致性 |
 
 ---
 
 ## ⚙️ 核心脚本说明
 
-- [`pipeline_scheduler.py`](pipeline_scheduler.py)：**跨平台总调度器**。负责分配 A100 实例、预热通信信道、投递代码、捕获进度日志，并在 `finally` 阶段无条件执行 `colab stop` 回收算力。
-- [`remote_minimax_runner.py`](remote_minimax_runner.py)：**远端执行流水线**。运行在 Colab A100 容器内，执行 rclone 透明挂载、秒级软链接、ComfyUI 依赖部署与 MiniMax H3 推理生成。
+- [`pipeline_scheduler.py`](pipeline_scheduler.py)：**跨平台总调度器**。负责动态读取任务配置、分配 A100 实例、预热通信信道、投递代码、捕获进度日志，并在 `finally` 阶段无条件执行 `colab stop` 回收算力。
+- [`remote_minimax_runner.py`](remote_minimax_runner.py)：**远端执行流水线**。运行在 Colab A100 容器内，执行 rclone 透明挂载、秒级软链接、ComfyUI 依赖部署、构建真实 API Prompt 并监听渲染进度，实时回传 Google Drive。
+- [`plan_c_tasks.json`](plan_c_tasks.json)：方案 C 的 8 个结构化测试任务定义。
 - [`inspect_drive.py`](inspect_drive.py)：Drive 模型与输出目录资产快捷探测工具。
 
 ---
