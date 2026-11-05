@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Moss_01_Natural_Skin_Portrait",
+    "category": "Moody Moss V3.3 - 极度真实微距人像 (去油腻/真实皮肤质感)",
+    "prompt": "raw photo, masterpiece, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT4: A close-up portrait of a 22-year-old woman sitting beside a sunlit window, natural unfiltered daylight, visible subtle skin pores, gentle peach fuzz on cheek, authentic non-oily matte skin texture, deep expressive brown eyes, loose natural hair strands catching warm morning sunbeams, shallow depth of field, photorealistic, neutral aesthetic, hyper-detailed",
+    "negative_prompt": "plastic skin, oily shine, greasy skin, uncanny valley, CGI render, 3d, cartoon, anime, illustration, doll, over-smoothed, extra limbs, bad eyes, blur, watermark, signature",
+    "width": 896,
+    "height": 1152,
+    "steps": 25,
+    "cfg": 3.5,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 9001
+  },
+  {
+    "id": 2,
+    "name": "Moss_02_Cinematic_Moody_Light",
+    "category": "Moody Moss V3.3 - 电影质感弱光人像 (去滤镜/真实光学暗部)",
+    "prompt": "cinematic 35mm film still, Kodak Vision3: intimate medium close-up of a contemplative man in a rain-streaked twilight cafe, soft amber rim light highlighting jawline, realistic matte skin tones, textured wool coat, subtle reflections on wet glass background, genuine melancholic gaze, authentic cinematic depth, organic color grading",
+    "negative_prompt": "over-saturated, neon glare, airbrushed skin, plastic, 3d render, illustration, bad anatomy, deformed fingers, watermark",
+    "width": 896,
+    "height": 1152,
+    "steps": 25,
+    "cfg": 3.5,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 9002
+  },
+  {
+    "id": 3,
+    "name": "Moss_03_Asian_Natural_Elegance",
+    "category": "Moody Moss V3.3 - 东方雅致写实人像 (V3 均衡数据集测试)",
+    "prompt": "professional studio photography, Hasselblad H6D-100c, 100mm lens: stunningly natural portrait of an East Asian young woman, minimal makeup, natural eyebrow texture, realistic skin micro-relief, calm gentle smile, crisp black silky hair, simple elegant linen blouse, muted neutral gray studio backdrop, sharp focus on eyes, clean authentic realism",
+    "negative_prompt": "heavy makeup, plastic face, doll, anime, 3d cgi, oily specular reflection, bad hands, lowres, watermark",
+    "width": 896,
+    "height": 1152,
+    "steps": 25,
+    "cfg": 3.5,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 9003
+  }
+]

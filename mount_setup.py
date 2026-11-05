@@ -58,7 +58,7 @@ token = {token_json}
 
     log("Waiting for mount point to become available...")
     for i in range(15):
-        if os.path.ismount(mount_dir) or os.path.exists(os.path.join(mount_dir, "MiniMax_Models")) or os.path.exists(os.path.join(mount_dir, "MyDrive")):
+        if os.path.ismount(mount_dir) or os.path.exists(os.path.join(mount_dir, "Cloud_AI_Workspace")) or os.path.exists(os.path.join(mount_dir, "MiniMax_Models")) or os.path.exists(os.path.join(mount_dir, "MyDrive")):
             log(f"[OK] Mount is LIVE in {i+1}s!")
             break
         time.sleep(1.0)
@@ -68,19 +68,23 @@ token = {token_json}
     try:
         entries = os.listdir(mount_dir)
         log(f"Visible entries in {mount_dir}: {entries}")
-        # Locate MiniMax_Models
-        if "MiniMax_Models" in entries:
-            models_path = os.path.join(mount_dir, "MiniMax_Models")
-        elif os.path.exists(os.path.join(mount_dir, "MyDrive", "MiniMax_Models")):
-            models_path = os.path.join(mount_dir, "MyDrive", "MiniMax_Models")
-        else:
-            models_path = None
+        # Locate Models path
+        models_path = None
+        for cand in [
+            os.path.join(mount_dir, "Cloud_AI_Workspace", "Models"),
+            os.path.join(mount_dir, "MyDrive", "Cloud_AI_Workspace", "Models"),
+            os.path.join(mount_dir, "MiniMax_Models"),
+            os.path.join(mount_dir, "MyDrive", "MiniMax_Models")
+        ]:
+            if os.path.exists(cand):
+                models_path = cand
+                break
 
         if models_path:
-            log(f"[SUCCESS] MiniMax_Models located at: {models_path}")
+            log(f"[SUCCESS] Models located at: {models_path}")
             log(f"Subdirectories: {os.listdir(models_path)}")
         else:
-            log("[WARN] MiniMax_Models not immediately visible in root.")
+            log("[WARN] Models directory not immediately visible in root.")
     except Exception as e:
         log(f"Error inspecting mount dir: {e}")
 

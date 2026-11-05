@@ -131,7 +131,7 @@ def sync_models_to_local_nvme():
     # High-throughput rclone copy parameters for internal Google network
     cmd = [
         "rclone", "copy",
-        "gdrive:MiniMax_Models", local_models_dir,
+        "gdrive:Cloud_AI_Workspace/Models", local_models_dir,
         "--transfers", "4",
         "--drive-chunk-size", "128M",
         "--buffer-size", "64M",
@@ -510,8 +510,8 @@ def execute_batch_tasks(proc):
             log(f"[SUCCESS] Video rendered locally: {video_file_name} ({file_size_mb:.2f} MB, {elapsed_task:.1f}s)")
 
             # Upload directly to Google Drive MiniMax_H3_Outputs
-            log(f"Uploading {video_file_name} to Google Drive (gdrive:MiniMax_H3_Outputs/) ...")
-            cmd_upload = ["rclone", "copy", video_local_path, "gdrive:MiniMax_H3_Outputs/"]
+            log(f"Uploading {video_file_name} to Google Drive (gdrive:Cloud_AI_Workspace/Outputs/Videos/Mohen_Ink_Wuxia/) ...")
+            cmd_upload = ["rclone", "copy", video_local_path, "gdrive:Cloud_AI_Workspace/Outputs/Videos/Mohen_Ink_Wuxia/"]
             res_upload = subprocess.run(cmd_upload, capture_output=True, text=True)
             if res_upload.returncode == 0:
                 log(f"[OK] Persisted to Drive: MiniMax_H3_Outputs/{video_file_name}")

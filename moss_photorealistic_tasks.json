@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Moss_01_Night_Street_Canon5D",
+    "category": "Moody Moss V3.3 - 佳能5D真实夜景街头人像 (Civitai原版设置)",
+    "prompt": "一位年轻女性坐在夜晚的户外环境中，乌黑柔顺的长发和齐刘海，皮肤白皙，五官精致，大眼睛明亮有神，以略带好奇与温柔的眼神凝视着镜头，嘴唇微张，姿态自然放松，穿着一件米白色的高领针织毛衣，毛衣质地细腻，纹理清晰可见，背景是虚化的城市夜景，无数暖黄色和冷蓝色光斑闪烁，营造出梦幻电影感氛围。真实自然哑光肤质，毛孔微肌理细腻可见，绝对无油腻反光，相机模拟佳能5D Mark IV，ISO 800，85mm f/2.8，轻微胶片颗粒感，超写实真实生活记录瞬间，极致细节",
+    "negative_prompt": "plastic skin, oily shine, greasy skin, CGI render, 3d, cartoon, anime, illustration, doll, over-smoothed, extra limbs, bad eyes, blur, watermark, signature",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 20261001
+  },
+  {
+    "id": 2,
+    "name": "Moss_02_Piano_Room_Asian_Natural",
+    "category": "Moody Moss V3.3 - 钢琴教室温雅亚洲女性写真 (Civitai原版设置)",
+    "prompt": "写实音乐课写真，一位漂亮年轻优雅的亚洲女性站在成人钢琴教室的立式钢琴旁，脸庞清纯安静，大眼睛柔和水润，黑色长发自然披肩，真实细腻无油光哑光皮肤，真实微表情，穿着黑色合身针织上衣搭配米白色高腰长裙，外披浅咖色开衫，一只手轻扶琴盖，背景是立式钢琴、乐谱、木质地板与傍晚自然漫射光线，清纯温婉气质，大师级人像摄影，真实光学景深，去塑料感",
+    "negative_prompt": "heavy makeup, plastic face, doll, anime, 3d cgi, oily specular reflection, bad hands, deformed fingers, blur, lowres, watermark",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 20261002
+  },
+  {
+    "id": 3,
+    "name": "Moss_03_Golden_Hour_Bridge_Fashion",
+    "category": "Moody Moss V3.3 - 黄昏城市桥梁时尚街拍 (Civitai原版设置)",
+    "prompt": "一位年轻女性站在黄昏入夜时分的城市桥面上，柔顺的红棕色长发自然垂落，发丝在微风中轻轻飘动，妆容精致自然，面容清秀动人，身穿一件米白色的高领连帽外套，织物表面带有细腻纹理质感，背景是深蓝色夜空与远处城市灯火交织的虚化光斑，桥面有轻微湿润光学反光，专业街头摄影冷暖光影对比，真实电影质感与呼吸感，哑光自然皮肤微结构，超写实艺术影像",
+    "negative_prompt": "over-saturated, plastic, 3d render, anime, over-smoothed face, glossy oily skin, unnatural glare, extra limbs, watermark",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 20261003
+  },
+  {
+    "id": 4,
+    "name": "Moss_04_Daylight_Macro_Skin_Pores",
+    "category": "Moody Moss V3.3 - 窗边自然光微距极致细节 (超写实去油腻测试)",
+    "prompt": "raw photo, masterpiece, 8k uhd, dslr, soft natural daylight, film grain, Fujifilm XT4: A close-up portrait of a 22-year-old woman sitting beside a sunlit window, natural unfiltered morning light, visible subtle skin pores, gentle peach fuzz on cheek, authentic non-oily matte skin texture, deep expressive brown eyes, loose natural hair strands catching warm morning sunbeams, shallow depth of field, neutral aesthetic, hyper-detailed, photorealistic",
+    "negative_prompt": "plastic skin, oily shine, shiny greasy highlights, uncanny valley, CGI render, 3d, cartoon, anime, illustration, doll, over-smoothed, blur, watermark",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "sampler": "euler",
+    "scheduler": "simple",
+    "batch_size": 4,
+    "seed": 20261004
+  }
+]

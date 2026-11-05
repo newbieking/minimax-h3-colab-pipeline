@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Anime_01_Genshin_Furina_Portrait",
+    "category": "动漫角色定妆 - 原神芙宁娜风格肖像 (推荐4张候选)",
+    "prompt": "masterpiece, best quality, ultra-detailed, 1girl, furina (genshin impact), blue eyes, heterochromia, white and blue hair, ahoge, elegant aristocrat outfit, intricate top hat with ribbon, soft rim light, hydro ripples floating in air, anime aesthetic, vibrant studio lighting",
+    "negative_prompt": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry",
+    "width": 832,
+    "height": 1216,
+    "steps": 25,
+    "cfg": 7.0,
+    "batch_size": 4,
+    "loras": [
+      {
+        "name": "anime_characters/genshinfull1-000006.safetensors",
+        "strength": 0.8
+      },
+      {
+        "name": "anime_characters/add_detail.safetensors",
+        "strength": 0.5
+      }
+    ],
+    "seed": 10001
+  },
+  {
+    "id": 2,
+    "name": "Anime_02_Jirai_Kei_Fashion_Girl",
+    "category": "动漫服饰风格 - 地雷系/量产型少女全景 (推荐4张候选)",
+    "prompt": "masterpiece, best quality, 1girl, solo, jirai kei fashion, landmine girl aesthetic, twin tails hair, black ribbons, dark pink and black frilly lace blouse, pleated skirt, choker, slightly teary melancholic eyes, cute makeup, soft indoor room background with plushies",
+    "negative_prompt": "worst quality, low quality, bad hands, deformed limbs, blurry, watermark",
+    "width": 832,
+    "height": 1216,
+    "steps": 25,
+    "cfg": 7.0,
+    "batch_size": 4,
+    "loras": [
+      {
+        "name": "anime_characters/jirai_v2.safetensors",
+        "strength": 0.85
+      },
+      {
+        "name": "anime_characters/add_detail.safetensors",
+        "strength": 0.4
+      }
+    ],
+    "seed": 20002
+  },
+  {
+    "id": 3,
+    "name": "Anime_03_Blue_Archive_Clean_Style",
+    "category": "动漫专属画风 - 蔚蓝档案清新平涂风格 (推荐4张候选)",
+    "prompt": "masterpiece, best quality, 1girl, blue archive art style, clean flat colors, vivid cyan sky, halos above head, school uniform, wind blowing hair, peaceful sunny street, anime key visual",
+    "negative_prompt": "monochrome, grayscale, realistic 3d, worst quality, bad hands, artifacts",
+    "width": 1216,
+    "height": 832,
+    "steps": 25,
+    "cfg": 7.0,
+    "batch_size": 4,
+    "loras": [
+      {
+        "name": "anime_characters/add_detail.safetensors",
+        "strength": 0.7
+      }
+    ],
+    "seed": 30003
+  },
+  {
+    "id": 4,
+    "name": "Mohen_LookDev_01_Qingfeng_Turnaround",
+    "category": "《墨痕》青锋角色定妆表 (多角度与动作 4联张)",
+    "prompt": "Masterpiece Chinese ink wash painting, traditional sumi-e wuxia aesthetic, raw rice paper texture, character design turnaround sheet: young swordsman Qing Feng, wearing dark teal tunic, conical bamboo hat, sharp piercing eyes, unsheathed straight sword, flying white ink brushstrokes, dry ink splatters, multiple angles view, white negative space",
+    "negative_prompt": "3D render, glossy Western digital art, modern clothes, blood, watermark, text",
+    "width": 1344,
+    "height": 768,
+    "steps": 20,
+    "cfg": 6.5,
+    "batch_size": 4,
+    "loras": [
+      {
+        "name": "anime_characters/add_detail.safetensors",
+        "strength": 0.6
+      }
+    ],
+    "seed": 40004
+  }
+]

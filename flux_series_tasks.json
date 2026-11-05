@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "SeriesA_01_Ghibli_RainyNight",
+    "style": "吉卜力 / 宫崎骏治愈水彩画风",
+    "lora_path": "anime/ghibli_style_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "ghiblistyle, a solitary anime figure holding an umbrella standing in a rain-slicked city intersection at dusk, reflection on wet asphalt, lush nostalgic atmosphere, warm glowing shopfronts, gentle falling rain, Studio Ghibli aesthetic, masterpiece, highly detailed",
+    "width": 768,
+    "height": 768,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 2,
+    "name": "SeriesA_02_MakotoShinkai_RainyNight",
+    "style": "新海诚唯美通透光影与天空",
+    "lora_path": "anime/makoto_shinkai_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "Shinkai Makoto style, kanime, a solitary anime figure holding a clear vinyl umbrella standing in a rain-soaked Tokyo crosswalk at twilight, deep blue and purple evening sky, cinematic lens flare, glowing city lights reflecting on puddle-covered pavement, Makoto Shinkai anime aesthetic, masterpiece",
+    "width": 768,
+    "height": 768,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 3,
+    "name": "SeriesA_03_Cyberpunk_RainyNight",
+    "style": "赛博朋克动漫与霓虹雨夜",
+    "lora_path": "anime/cyberpunk_anime_flux.safetensors",
+    "lora_strength": 0.80,
+    "prompt": "anime, cyberpunk, a solitary figure with an umbrella standing in a rain-slicked futuristic intersection at night, vibrant neon reflections on wet asphalt, towering holographic billboards, glowing cybernetic jacket, dark sci-fi dystopian city atmosphere, highly detailed",
+    "width": 768,
+    "height": 768,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 4,
+    "name": "SeriesA_04_ChineseInk_RainyNight",
+    "style": "传统写意水墨与武侠留白",
+    "lora_path": "ink_wuxia/ink_wash_fusion_flux.safetensors",
+    "lora_strength": 0.80,
+    "prompt": "A dinkfsn style ink wash painting, a solitary figure with an oil-paper umbrella standing in a rain-soaked ancient crossroads at dusk, dynamic ink splashes, subtle wash gradation, wet stone pavement reflections, elegant traditional Chinese ink painting, atmospheric negative space",
+    "width": 768,
+    "height": 768,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 5,
+    "name": "SeriesA_05_ClayAnimation_RainyNight",
+    "style": "超萌手工粘土定格动画",
+    "lora_path": "3d_clay/clay_animation_flux.safetensors",
+    "lora_strength": 0.90,
+    "prompt": "Clay Animation Style, a cute miniature clay character holding an umbrella standing in a rainy intersection, handcrafted plasticine textures, subtle fingerprint details, soft stop-motion studio lighting, charming whimsical claymation, highly detailed",
+    "width": 768,
+    "height": 768,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  }
+]

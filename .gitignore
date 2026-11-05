@@ -36,3 +36,7 @@ token_cache.json
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Temporary scratch scripts and previews
+scratch/
+flux_preview/
