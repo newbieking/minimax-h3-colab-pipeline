@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Moss_Lookbook_1_SPR-0002",
+    "season": "Spring (春季)",
+    "outfit_id": "SPR-0002",
+    "title": "法式优雅碎花吊带与针织开衫 (French Floral Camisole & Pleated Mini Skirt)",
+    "prompt": "A stunning 24-year-old East Asian fashion model with natural clean makeup, delicate facial features, gentle gaze, styled soft wavy dark hair, wearing yellow floral camisole cardigan, pink pleated mini skirt, ivory coat, delicate gold jewelry, elegant spring Parisian lookbook style, standing in a minimalist modern architectural studio with neutral background, ultra-realistic, Hasselblad 80mm f/1.8 lens portrait, natural daylight soft lighting, film grain, subsurface skin scattering, cinematic fashion magazine editorial, masterpiece, 8k resolution",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "seed": 8888,
+    "count": 1
+  },
+  {
+    "id": 2,
+    "name": "Moss_Lookbook_2_SUM-0005",
+    "season": "Summer (夏季)",
+    "outfit_id": "SUM-0005",
+    "title": "极简清爽亚麻衬衫与高腰长裤 (Minimalist Crisp Summer Linen & Trousers)",
+    "prompt": "A stunning 24-year-old East Asian fashion model with natural clean makeup, delicate facial features, gentle gaze, styled soft wavy dark hair, wearing crisp white sleeveless linen blouse, beige wide-leg tailored trousers, leather slide sandals, leather woven tote bag, airy sunlit summer aesthetic, standing in a minimalist modern architectural studio with neutral background, ultra-realistic, Hasselblad 80mm f/1.8 lens portrait, natural daylight soft lighting, film grain, subsurface skin scattering, cinematic fashion magazine editorial, masterpiece, 8k resolution",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "seed": 8888,
+    "count": 1
+  },
+  {
+    "id": 3,
+    "name": "Moss_Lookbook_3_AUT-0010",
+    "season": "Autumn (秋季)",
+    "outfit_id": "AUT-0010",
+    "title": "经典英伦风衣与燕麦色高领羊绒 (Classic Trench Coat & Oatmeal Cashmere Turtleneck)",
+    "prompt": "A stunning 24-year-old East Asian fashion model with natural clean makeup, delicate facial features, gentle gaze, styled soft wavy dark hair, wearing tailored camel trench coat, soft oatmeal knit turtleneck sweater, dark navy wool trousers, leather ankle boots, rich autumn foliage golden hour palette, standing in a minimalist modern architectural studio with neutral background, ultra-realistic, Hasselblad 80mm f/1.8 lens portrait, natural daylight soft lighting, film grain, subsurface skin scattering, cinematic fashion magazine editorial, masterpiece, 8k resolution",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "seed": 8888,
+    "count": 1
+  },
+  {
+    "id": 4,
+    "name": "Moss_Lookbook_4_WIN-0014",
+    "season": "Winter (冬季)",
+    "outfit_id": "WIN-0014",
+    "title": "重磅羊毛大衣与蓬松围巾质感 (Heavyweight Wool Overcoat & Fluffy Cashmere Scarf)",
+    "prompt": "A stunning 24-year-old East Asian fashion model with natural clean makeup, delicate facial features, gentle gaze, styled soft wavy dark hair, wearing oversized charcoal wool tailored overcoat, thick cream cable-knit scarf, ribbed leggings, leather combat boots, crisp winter snow-lit urban atmosphere, standing in a minimalist modern architectural studio with neutral background, ultra-realistic, Hasselblad 80mm f/1.8 lens portrait, natural daylight soft lighting, film grain, subsurface skin scattering, cinematic fashion magazine editorial, masterpiece, 8k resolution",
+    "width": 896,
+    "height": 1344,
+    "steps": 25,
+    "cfg": 3.0,
+    "seed": 8888,
+    "count": 1
+  }
+]

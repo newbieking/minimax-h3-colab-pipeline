@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "source": "https://github.com/paipiange/nvzhuang",
+    "total_extracted": 2727,
+    "purpose": "Decoupled Outfit Lookbook Generation for Moody Moss Mix & FLUX.1"
+  },
+  "real_photorealistic_lookbook": [
+    {
+      "id": "SPR-0002",
+      "season": "Spring (春季)",
+      "title": "法式优雅碎花吊带与针织开衫 (French Floral Camisole & Pleated Mini Skirt)",
+      "outfit_prompt": "wearing yellow floral camisole cardigan, pink pleated mini skirt, ivory coat, delicate gold jewelry, elegant spring Parisian lookbook style",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/thumbs/SPR-0002.webp"
+    },
+    {
+      "id": "SUM-0005",
+      "season": "Summer (夏季)",
+      "title": "极简清爽亚麻衬衫与高腰长裤 (Minimalist Crisp Summer Linen & Trousers)",
+      "outfit_prompt": "wearing crisp white sleeveless linen blouse, beige wide-leg tailored trousers, leather slide sandals, leather woven tote bag, airy sunlit summer aesthetic",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/thumbs/SUM-0005.webp"
+    },
+    {
+      "id": "AUT-0010",
+      "season": "Autumn (秋季)",
+      "title": "经典英伦风衣与燕麦色高领羊绒 (Classic Trench Coat & Oatmeal Cashmere Turtleneck)",
+      "outfit_prompt": "wearing tailored camel trench coat, soft oatmeal knit turtleneck sweater, dark navy wool trousers, leather ankle boots, rich autumn foliage golden hour palette",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/thumbs/AUT-0010.webp"
+    },
+    {
+      "id": "WIN-0014",
+      "season": "Winter (冬季)",
+      "title": "重磅羊毛大衣与蓬松围巾质感 (Heavyweight Wool Overcoat & Fluffy Cashmere Scarf)",
+      "outfit_prompt": "wearing oversized charcoal wool tailored overcoat, thick cream cable-knit scarf, ribbed leggings, leather combat boots, crisp winter snow-lit urban atmosphere",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/thumbs/WIN-0014.webp"
+    }
+  ],
+  "anime_stylized_lookbook": [
+    {
+      "id": "SPR-0017",
+      "season": "Spring (春季学院)",
+      "title": "春日元气水手领学院风 (Spring Sailor Collar Academy Uniform)",
+      "outfit_prompt": "wearing navy sailor collar academy blouse, ivory pleated mini skirt, denim cropped jacket, knee-high socks, white sneakers, playful vibrant anime aesthetic",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/anime/thumbs/SPR-0017.webp"
+    },
+    {
+      "id": "SUM-0021",
+      "season": "Summer (夏日海滨)",
+      "title": "夏日阳光碎花轻盈连衣裙 (Sunlit Summer Floral Chiffon Sundress)",
+      "outfit_prompt": "wearing sky blue chiffon floral sundress, delicate ribbons, straw sunhat, white buckled sandals, refreshing sunny seaside anime scenery, masterpiece",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/anime/thumbs/SUM-0021.webp"
+    },
+    {
+      "id": "AUT-0033",
+      "season": "Autumn (秋日街头)",
+      "title": "秋日复古机能夹克与百褶格裙 (Autumn Techwear Bomber & Plaid Pleated Skirt)",
+      "outfit_prompt": "wearing olive green bomber jacket over oversized knit hoodie, beige tartan pleated skirt, chunky platform boots, stylish anime street fashion lookbook",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/anime/thumbs/AUT-0033.webp"
+    },
+    {
+      "id": "SXY-0137",
+      "season": "Special (赛博朋克/风格化)",
+      "title": "哥特机能束身短裙与战术长靴 (Gothic Cyber Corset Dress & Combat Boots)",
+      "outfit_prompt": "wearing midnight navy corset mini dress, ruffled dark trim, tactical leather gloves, thigh-high stockings, platform boots, dramatic cyberpunk anime fashion",
+      "reference_thumb": "D:/dev/active/nvzhuang/assets/anime/thumbs/SXY-0137.webp"
+    }
+  ]
+}

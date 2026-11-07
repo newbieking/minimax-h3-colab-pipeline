@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Flux_Anime_Lookbook_1_SPR-0017",
+    "season": "Spring (春季学院)",
+    "outfit_id": "SPR-0017",
+    "title": "春日元气水手领学院风 (Spring Sailor Collar Academy Uniform)",
+    "lora_path": "anime/makoto_shinkai_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "A beautiful anime girl with twintail silver hair, expressive crystal violet eyes, gentle sweet smile, wearing navy sailor collar academy blouse, ivory pleated mini skirt, denim cropped jacket, knee-high socks, white sneakers, playful vibrant anime aesthetic, standing in front of soft aesthetic watercolor gradient background, full body view, masterpiece, Makoto Shinkai style, kanime, clean linework, vibrant aesthetic, high quality anime character concept art",
+    "width": 768,
+    "height": 1024,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 2,
+    "name": "Flux_Anime_Lookbook_2_SUM-0021",
+    "season": "Summer (夏日海滨)",
+    "outfit_id": "SUM-0021",
+    "title": "夏日阳光碎花轻盈连衣裙 (Sunlit Summer Floral Chiffon Sundress)",
+    "lora_path": "anime/makoto_shinkai_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "A beautiful anime girl with twintail silver hair, expressive crystal violet eyes, gentle sweet smile, wearing sky blue chiffon floral sundress, delicate ribbons, straw sunhat, white buckled sandals, refreshing sunny seaside anime scenery, masterpiece, standing in front of soft aesthetic watercolor gradient background, full body view, masterpiece, Makoto Shinkai style, kanime, clean linework, vibrant aesthetic, high quality anime character concept art",
+    "width": 768,
+    "height": 1024,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 3,
+    "name": "Flux_Anime_Lookbook_3_AUT-0033",
+    "season": "Autumn (秋日街头)",
+    "outfit_id": "AUT-0033",
+    "title": "秋日复古机能夹克与百褶格裙 (Autumn Techwear Bomber & Plaid Pleated Skirt)",
+    "lora_path": "anime/makoto_shinkai_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "A beautiful anime girl with twintail silver hair, expressive crystal violet eyes, gentle sweet smile, wearing olive green bomber jacket over oversized knit hoodie, beige tartan pleated skirt, chunky platform boots, stylish anime street fashion lookbook, standing in front of soft aesthetic watercolor gradient background, full body view, masterpiece, Makoto Shinkai style, kanime, clean linework, vibrant aesthetic, high quality anime character concept art",
+    "width": 768,
+    "height": 1024,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  },
+  {
+    "id": 4,
+    "name": "Flux_Anime_Lookbook_4_SXY-0137",
+    "season": "Special (赛博朋克/风格化)",
+    "outfit_id": "SXY-0137",
+    "title": "哥特机能束身短裙与战术长靴 (Gothic Cyber Corset Dress & Combat Boots)",
+    "lora_path": "anime/makoto_shinkai_flux.safetensors",
+    "lora_strength": 0.85,
+    "prompt": "A beautiful anime girl with twintail silver hair, expressive crystal violet eyes, gentle sweet smile, wearing midnight navy corset mini dress, ruffled dark trim, tactical leather gloves, thigh-high stockings, platform boots, dramatic cyberpunk anime fashion, standing in front of soft aesthetic watercolor gradient background, full body view, masterpiece, Makoto Shinkai style, kanime, clean linework, vibrant aesthetic, high quality anime character concept art",
+    "width": 768,
+    "height": 1024,
+    "steps": 20,
+    "guidance": 3.5,
+    "seed": 2026
+  }
+]
