@@ -114,7 +114,7 @@ def launch_comfyui_server(comfy_dir):
 
 def build_image_guided_graph(task, ref_image_name):
     prompt_text = task["prompt"]
-    neg_prompt = task.get("neg_prompt", "blurry, out of focus, distorted, deformed, extra fingers, cartoon, plastic, overexposed, bad anatomy, bad hands, watermark")
+    neg_prompt = task.get("neg_prompt") or task.get("negative_prompt") or "blurry, out of focus, distorted, deformed, extra fingers, cartoon, plastic, overexposed, bad anatomy, bad hands, watermark"
     width = int(task.get("width", 896))
     height = int(task.get("height", 1344))
     steps = int(task.get("steps", 25))
